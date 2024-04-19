@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
       "id": "Collaborators to playlist",
       "isDefault": true
     }
