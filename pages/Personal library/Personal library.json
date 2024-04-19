@@ -13,10 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-========
           "bottomRow": 780,
->>>>>>>> cody:pages/Personal library/Personal library.json
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -43,10 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-========
         "id": "Personal library",
->>>>>>>> cody:pages/Personal library/Personal library.json
         "deleted": false,
         "policies": [],
         "userPermissions": []
