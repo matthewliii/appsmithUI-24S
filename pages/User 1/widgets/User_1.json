@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 13,
-    "bottomRow": 55,
+    "topRow": 15,
+    "bottomRow": 47,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 13.015625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 10,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "1. As a user, I want to be able to store all my music files on one platform, whether it be other artists' officially released music, unreleased music files, or my own music files that I make.\n\n2. As a user, I want to be able to upload my own music files for others to see, listen, or add to their playlists, or just for me to keep in a safe spot to compare with other music files.\n\n3. As a user, I want to be able to filter my playlists by any music information that I choose. This could be key, tempo, artist, genre, etc.\n\n4. As a user, I want to be able to see what the most popular songs are on the platform or discover new music that may be trending at the moment, so I can learn more about new music and keep up with popular music trends to keep my audience entertained.\n\n5. As a user, I want to be able to update my playlists with song/genre recommendations from different playlists on the platform, or create a brand new playlist altogether using these recommendations.\n",
     "key": "h5kc4t5tih",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 61,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mci20okw1p",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 15,
     "responsiveBehavior": "fill",
-    "originalTopRow": 13,
+    "originalTopRow": 15,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 55,
+    "originalBottomRow": 47,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

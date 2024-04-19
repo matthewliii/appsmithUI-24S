@@ -31,7 +31,7 @@
     "text": "1. As a user, I want to be able to sort my collection of music files by title, artist, genre, BPM, and duration.\n\n2. As a user, I would like to be able to search and filter through his collection of music files.\n\n3. As a user, I want to be able to add and store new music.\n\n4. As users, we want to be able to collaborate with other users to create playlists together.\n",
     "key": "h5kc4t5tih",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 53,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mci20okw1p",

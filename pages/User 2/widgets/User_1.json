@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 13,
-    "bottomRow": 47,
+    "bottomRow": 43,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "1. As a user, I want a software that can be used quickly during live sets to search for music I have already cataloged as well as new music that the crowd may like that comes to mind during the set or they ask for. This way I can cater to the crowd effectively day in and day out.\n\n2. As a user, I want to be able to add the trendy songs that are the most popular into my own catalog in order to implement them into my sets every week without having to take out too much time \n\n3. As a user, I want to be able to create sets from different playlists and gain inspiration to spice up my own sets using the different storage organization methods\n\n4. As a user, I want to be able to properly have my music as an artist represented for my songs",
     "key": "h5kc4t5tih",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 55,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mci20okw1p",
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 55,
+    "originalBottomRow": 37,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
