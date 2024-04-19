@@ -10,27 +10,11 @@
         "click",
         "submit"
     ],
-    "topRow": 39,
-    "bottomRow": 45,
+    "topRow": 49,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
-        "groupButton1moj774epx": {
-            "itemType": "BUTTON",
-            "onClick": "{{navigateTo('Personal library', {}, 'SAME_WINDOW');}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "iconName": "book",
-            "widgetId": "w4hyxckv6y",
-            "menuItems": {},
-            "index": 3,
-            "label": "Library",
-            "isVisible": true,
-            "buttonType": "SIMPLE",
-            "buttonVariant": "filled",
-            "id": "groupButton1moj774epx",
-            "isDisabled": false,
-            "placement": "CENTER"
-        },
         "groupButton3": {
             "onClick": "",
             "buttonType": "SIMPLE",
@@ -140,35 +124,33 @@
     "parentColumnSpace": 13.015625,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton3.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton1moj774epx.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"}
     ],
-    "leftColumn": 16,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"},
-        {"key": "groupButtons.groupButton1moj774epx.buttonColor"}
+        {"key": "groupButtons.groupButton3.buttonColor"}
     ],
     "key": "ejikkkxta8",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 48,
-    "widgetId": "p66t2ltldk",
+    "rightColumn": 46,
+    "widgetId": "av9lreoy85",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "0",
+    "parentId": "vpsmp2o4yg",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 15,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 39,
+    "originalTopRow": 49,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
-    "originalBottomRow": 45,
+    "originalBottomRow": 55,
     "buttonVariant": "PRIMARY"
 }

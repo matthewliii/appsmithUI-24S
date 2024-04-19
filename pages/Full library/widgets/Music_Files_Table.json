@@ -75,7 +75,7 @@
         "Tempo"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
-    "compactMode": "SHORT",
+    "compactMode": "TALL",
     "displayName": "Table",
     "bottomRow": 81,
     "columnWidthMap": {},

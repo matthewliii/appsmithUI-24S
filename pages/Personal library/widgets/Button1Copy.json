@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button1Copy",
-    "onClick": "{{navigateTo('Personal library', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Add and Delete', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -26,7 +26,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Edit Library",
+    "text": "Manage Library",
     "isDisabled": false,
     "key": "06mwboeglp",
     "isDeprecated": false,

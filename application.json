@@ -15,18 +15,6 @@
     {
       "id": "Home",
       "isDefault": false
-    },
-    {
-      "id": "User 1",
-      "isDefault": false
-    },
-    {
-      "id": "User 2",
-      "isDefault": false
-    },
-    {
-      "id": "User 3",
-      "isDefault": false
     }
   ],
   "viewMode": false,
