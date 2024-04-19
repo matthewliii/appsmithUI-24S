@@ -1,0 +1,3 @@
+{
+	"Title": {{Music_Files_Table.selectedRow}}
+}
