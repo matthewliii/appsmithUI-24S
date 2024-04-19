@@ -1,8 +1,28 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Courses",
+      "isDefault": false
+    },
+    {
+      "id": "Modules",
+      "isDefault": false
+    },
+    {
+      "id": "Content",
+      "isDefault": false
+    },
+    {
+      "id": "Full library",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Personal library",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,7 +35,11 @@
   },
   "color": "#FFEBFB",
   "icon": "cloud",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
