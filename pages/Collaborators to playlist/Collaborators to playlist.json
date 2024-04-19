@@ -1,10 +1,7 @@
 {
   "unpublishedPage": {
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
     "name": "Collaborators to playlist",
     "slug": "collaborators-to-playlist",
-========
->>>>>>>> cody:pages/Personal library/Personal library.json
     "layouts": [
       {
         "viewMode": false,
@@ -16,10 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
           "bottomRow": 800,
-========
->>>>>>>> cody:pages/Personal library/Personal library.json
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -46,10 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
         "id": "Collaborators to playlist",
-========
->>>>>>>> cody:pages/Personal library/Personal library.json
         "deleted": false,
         "policies": [],
         "userPermissions": []
