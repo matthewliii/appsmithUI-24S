@@ -34,9 +34,7 @@
               "collectionId": "Courses_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  const courses = await fetchCoursesBySubject.run();\n  return courses.map(c => {\n    return {\n      Id: c.course_id,\n      Name: c.course_name,\n      Duration: c.course_duration,\n      Description: c.course_description,\n      Image: c.course_thumbnail_url,\n      Type: c.type_name,\n      Level: c.level_name,\n      Instructor: c.course_instructor,\n      Language: c.course_language\n    };\n  });\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -45,9 +43,7 @@
               "collectionId": "Courses_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  const subjects = await fetchSubjects.run();\n  const adjustedSubjects = subjects.map(s => {\n    return {\n      Id: s.id,\n      Name: s.name\n    };\n  });\n  storeValue('subjects', adjustedSubjects);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -56,9 +52,7 @@
               "collectionId": "Courses_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  const courseTypes = await fetchCourseType.run();\n  const courseLevels = await fetchCourseLevels.run();\n  storeValue('types', courseTypes);\n  storeValue('levels', courseLevels);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
