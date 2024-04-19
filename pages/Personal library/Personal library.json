@@ -1,10 +1,7 @@
 {
   "unpublishedPage": {
-<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-========
     "name": "Personal library",
     "slug": "personal-library",
->>>>>>>> cody:pages/Personal library/Personal library.json
     "layouts": [
       {
         "viewMode": false,
