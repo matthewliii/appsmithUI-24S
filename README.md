@@ -1,10 +1,7 @@
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+##### README file
+### This app is a music storage catalog app, where music files of different varieties can be accessed, filtered, and collaborated on. These music files have different attributes that help musicians and DJs choose the best song for any given moment. These files can be accessed all at once, one by one, or in different playlists/sessions. Playlists can also be made to store different music files, giving the user complete access and customization to fit all their music needs.
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
-
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
-
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+### Our UI is comprised of 8 different pages, each with a different function. There are pages that let you search for songs and playlists, while others let you create or update these songs and playlists, and finally some let you delete them. For all your music catalog needs, MixMaven has you covered.
 
 ##### You can visit the application using the below link
 
