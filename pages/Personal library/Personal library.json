@@ -29,8 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Collaborators to playlist_get_Playlists",
-              "name": "get_Playlists",
+              "id": "Personal library",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
