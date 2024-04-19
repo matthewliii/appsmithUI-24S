@@ -1,8 +1,6 @@
 {
   "unpublishedPage": {
 <<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-    "name": "Collaborators to playlist",
-    "slug": "collaborators-to-playlist",
 ========
     "name": "Personal library",
     "slug": "personal-library",
@@ -19,7 +17,6 @@
           "widgetId": "0",
           "topRow": 0,
 <<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-          "bottomRow": 800,
 ========
           "bottomRow": 780,
 >>>>>>>> cody:pages/Personal library/Personal library.json
@@ -50,7 +47,6 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
 <<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
-        "id": "Collaborators to playlist",
 ========
         "id": "Personal library",
 >>>>>>>> cody:pages/Personal library/Personal library.json
