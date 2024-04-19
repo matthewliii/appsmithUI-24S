@@ -4,8 +4,6 @@
     "name": "Collaborators to playlist",
     "slug": "collaborators-to-playlist",
 ========
-    "name": "Personal library",
-    "slug": "personal-library",
 >>>>>>>> cody:pages/Personal library/Personal library.json
     "layouts": [
       {
@@ -21,7 +19,6 @@
 <<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
           "bottomRow": 800,
 ========
-          "bottomRow": 780,
 >>>>>>>> cody:pages/Personal library/Personal library.json
           "containerStyle": "none",
           "snapRows": 124,
@@ -52,7 +49,6 @@
 <<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
         "id": "Collaborators to playlist",
 ========
-        "id": "Personal library",
 >>>>>>>> cody:pages/Personal library/Personal library.json
         "deleted": false,
         "policies": [],
