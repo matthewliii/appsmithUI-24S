@@ -1,12 +1,7 @@
 {
   "unpublishedPage": {
-<<<<<<<< HEAD:pages/Personal library/Personal library.json
     "name": "Personal library",
     "slug": "personal-library",
-========
-    "name": "Collaborators to playlist",
-    "slug": "collaborators-to-playlist",
->>>>>>>> matt:pages/Collaborators to playlist/Collaborators to playlist.json
     "layouts": [
       {
         "viewMode": false,
@@ -18,11 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<<< HEAD:pages/Personal library/Personal library.json
           "bottomRow": 780,
-========
-          "bottomRow": 800,
->>>>>>>> matt:pages/Collaborators to playlist/Collaborators to playlist.json
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -49,11 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-<<<<<<<< HEAD:pages/Personal library/Personal library.json
         "id": "Personal library",
-========
-        "id": "Collaborators to playlist",
->>>>>>>> matt:pages/Collaborators to playlist/Collaborators to playlist.json
         "deleted": false,
         "policies": [],
         "userPermissions": []
