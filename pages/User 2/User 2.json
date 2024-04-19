@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Personal library",
-    "slug": "personal-library",
+    "name": "User 2",
+    "slug": "user-2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 570,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 69,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Personal library",
+        "id": "User 2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66204ac629e628460a326fd6_6621b06229e628460a327086"
+  "gitSyncId": "66204ac629e628460a326fd6_6621d2bc29e628460a32709e"
 }
