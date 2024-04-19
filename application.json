@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Charts",
       "isDefault": true
     }
   ],
@@ -15,7 +15,14 @@
   },
   "color": "#FFEBFB",
   "icon": "cloud",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
