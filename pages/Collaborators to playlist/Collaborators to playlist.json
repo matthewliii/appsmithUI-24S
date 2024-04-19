@@ -1,0 +1,68 @@
+{
+  "unpublishedPage": {
+<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
+    "name": "Collaborators to playlist",
+    "slug": "collaborators-to-playlist",
+========
+    "name": "Personal library",
+    "slug": "personal-library",
+>>>>>>>> cody:pages/Personal library/Personal library.json
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
+          "bottomRow": 800,
+========
+          "bottomRow": 780,
+>>>>>>>> cody:pages/Personal library/Personal library.json
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Collaborators to playlist_get_Playlists",
+              "name": "get_Playlists",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+<<<<<<<< HEAD:pages/Collaborators to playlist/Collaborators to playlist.json
+        "id": "Collaborators to playlist",
+========
+        "id": "Personal library",
+>>>>>>>> cody:pages/Personal library/Personal library.json
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "66204ac629e628460a326fd6_6621b06229e628460a327086"
+}
