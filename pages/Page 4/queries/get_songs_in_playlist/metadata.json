@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_all_playlists",
+    "name": "get_songs_in_playlist",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pl/playlist"
+        "url": "web:4000/pl/playlistsongs"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Page 4",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{search_songs.formData}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
@@ -40,22 +40,28 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "search_songs.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T02:09:14Z"
+    "createdAt": "2024-04-19T02:49:40Z"
   },
-  "id": "Page1_get_all_playlists",
+  "id": "Page 4_get_songs_in_playlist",
   "deleted": false,
-  "gitSyncId": "6621d23b71031e32930874be_6621d24971031e32930874c1"
+  "gitSyncId": "6621d23b71031e32930874be_6621dbc471031e32930874c3"
 }

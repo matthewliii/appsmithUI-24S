@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page 4",
+    "slug": "page-4",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 710,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_get_all_playlists",
+              "id": "Page 4_get_all_playlists",
               "name": "get_all_playlists",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
           ],
           [
             {
-              "id": "Page1_get_songs_in_playlist",
+              "id": "Page 4_get_songs_in_playlist",
               "name": "get_songs_in_playlist",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -52,14 +52,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page 4",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "66204444d36bb373b3fbc893_66204445d36bb373b3fbc895"
