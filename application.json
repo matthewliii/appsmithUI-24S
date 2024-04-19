@@ -1,12 +1,17 @@
 {
   "pages": [
     {
+<<<<<<< HEAD
       "id": "Home",
       "isDefault": true
     },
     {
       "id": "Collaborators to playlist",
       "isDefault": true
+=======
+      "id": "Collaborators to playlist",
+      "isDefault": true
+>>>>>>> parent of de864d1 (Merge branch 'cody')
     }
   ],
   "viewMode": false,
