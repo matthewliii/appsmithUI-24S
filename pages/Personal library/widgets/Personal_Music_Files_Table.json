@@ -1,6 +1,6 @@
 {
     "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#212121",
     "onSort": "{{filter_by_key.run({\n //\"key\": \"value\",\n\t\n});}}",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
@@ -29,6 +29,7 @@
     "isVisible": true,
     "enableClientSideSearch": false,
     "version": 2,
+    "textColor": "#f8fafc",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -107,6 +108,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Artist",
+            "textColor": "#f8fafc",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -117,6 +119,7 @@
             "sticky": "",
             "originalId": "Artist",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Tempo": {
@@ -138,6 +141,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Tempo",
+            "textColor": "#f8fafc",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -148,6 +152,7 @@
             "sticky": "",
             "originalId": "Tempo",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Title": {
@@ -169,6 +174,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Title",
+            "textColor": "#f8fafc",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -179,6 +185,7 @@
             "sticky": "",
             "originalId": "Title",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Genre": {
@@ -200,6 +207,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Genre",
+            "textColor": "#f8fafc",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -210,6 +218,7 @@
             "sticky": "",
             "originalId": "Genre",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Key": {
@@ -231,6 +240,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Key",
+            "textColor": "#f8fafc",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -241,6 +251,7 @@
             "sticky": "",
             "originalId": "Key",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         }
     },
@@ -263,5 +274,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 8,
     "isVisiblePagination": true,
+    "cellBackground": "#212121",
     "verticalAlignment": "CENTER"
 }

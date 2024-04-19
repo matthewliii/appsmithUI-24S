@@ -5,7 +5,7 @@
     "mobileBottomRow": 4,
     "widgetName": "Button1",
     "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#1db954",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,10 +22,7 @@
     "parentColumnSpace": 13.015625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Home",
     "isDisabled": false,
     "key": "06mwboeglp",

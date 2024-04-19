@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 41,
-    "bottomRow": 47,
+    "topRow": 49,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -19,7 +19,7 @@
             "onClick": "",
             "buttonType": "SIMPLE",
             "iconName": "horizontal-bar-chart-desc",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#1db954",
             "widgetId": "",
             "menuItems": {
                 "menuItem1": {
@@ -67,7 +67,7 @@
         "groupButton1": {
             "onClick": "{{navigateTo('Add and Delete', {}, 'SAME_WINDOW');}}",
             "iconName": "add",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#1db954",
             "widgetId": "",
             "menuItems": {
                 "menuItemv41ukbs75d": {
@@ -107,7 +107,7 @@
         "groupButton2": {
             "buttonType": "SIMPLE",
             "iconName": "list",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#1db954",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
@@ -127,12 +127,7 @@
         {"key": "groupButtons.groupButton1.onClick"}
     ],
     "leftColumn": 17,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "ejikkkxta8",
     "orientation": "horizontal",
     "isDeprecated": false,
@@ -148,9 +143,9 @@
     "mobileTopRow": 15,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 49,
+    "originalTopRow": 41,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
-    "originalBottomRow": 55,
+    "originalBottomRow": 47,
     "buttonVariant": "PRIMARY"
 }

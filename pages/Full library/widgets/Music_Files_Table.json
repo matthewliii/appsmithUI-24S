@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#212121",
     "onSort": "{{filter_by_key.run({\n //\"key\": \"value\",\n\t\n});}}",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
@@ -18,7 +18,13 @@
         {"key": "primaryColumns.Genre.computedValue"},
         {"key": "primaryColumns.Key.computedValue"},
         {"key": "primaryColumns.Tempo.computedValue"},
-        {"key": "primaryColumns.Title.computedValue"}
+        {"key": "primaryColumns.Title.computedValue"},
+        {"key": "textColor"},
+        {"key": "primaryColumns.Artist.textColor"},
+        {"key": "primaryColumns.Tempo.textColor"},
+        {"key": "primaryColumns.Title.textColor"},
+        {"key": "primaryColumns.Genre.textColor"},
+        {"key": "primaryColumns.Key.textColor"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -30,6 +36,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "{{appsmith.theme.colors.backgroundColor}}",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -108,6 +115,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Artist",
+            "textColor": "{{appsmith.theme.colors.backgroundColor}}",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -118,6 +126,7 @@
             "sticky": "",
             "originalId": "Artist",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Tempo": {
@@ -139,6 +148,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Tempo",
+            "textColor": "{{appsmith.theme.colors.backgroundColor}}",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -149,6 +159,7 @@
             "sticky": "",
             "originalId": "Tempo",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Title": {
@@ -170,6 +181,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Title",
+            "textColor": "{{appsmith.theme.colors.backgroundColor}}",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -180,6 +192,7 @@
             "sticky": "",
             "originalId": "Title",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Genre": {
@@ -201,6 +214,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Genre",
+            "textColor": "{{appsmith.theme.colors.backgroundColor}}",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -211,6 +225,7 @@
             "sticky": "",
             "originalId": "Genre",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         },
         "Key": {
@@ -232,6 +247,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Key",
+            "textColor": "{{appsmith.theme.colors.backgroundColor}}",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -242,10 +258,11 @@
             "sticky": "",
             "originalId": "Key",
             "currencyCode": "USD",
+            "cellBackground": "#212121",
             "verticalAlignment": "CENTER"
         }
     },
-    "defaultSearchText": "Enter Title",
+    "defaultSearchText": "",
     "key": "14wnukjmur",
     "canFreezeColumn": true,
     "isDeprecated": false,
@@ -265,5 +282,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 8,
     "isVisiblePagination": true,
+    "cellBackground": "#212121",
     "verticalAlignment": "CENTER"
 }
