@@ -1,8 +1,12 @@
 {
   "pages": [
     {
+      "id": "Collaborators to playlist",
+      "isDefault": false
+    },
+    {
       "id": "Full library",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Add",
@@ -14,7 +18,7 @@
     },
     {
       "id": "Home",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Delete",
