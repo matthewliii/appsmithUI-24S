@@ -24,8 +24,6 @@
         {"key": "schema.__root_schema__.children.Email.defaultValue"},
         {"key": "schema.__root_schema__.children.Email.accentColor"},
         {"key": "schema.__root_schema__.children.Email.borderRadius"},
-        {"key": "schema.__root_schema__.children.FullName.accentColor"},
-        {"key": "schema.__root_schema__.children.FullName.borderRadius"},
         {"key": "schema.__root_schema__.children.Name.defaultValue"},
         {"key": "schema.__root_schema__.children.Name.accentColor"},
         {"key": "schema.__root_schema__.children.Name.borderRadius"},
@@ -37,8 +35,7 @@
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
         {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "schema.__root_schema__.children.UserID.defaultValue"},
-        {"key": "schema.__root_schema__.children.FullName.defaultValue"}
+        {"key": "schema.__root_schema__.children.UserID.defaultValue"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -137,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 72,
+    "originalBottomRow": 80,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -264,28 +261,6 @@
                 "isDisabled": false,
                 "sourceData": 38,
                 "fieldType": "Number Input"
-            },
-            "FullName": {
-                "labelTextSize": "0.875rem",
-                "identifier": "FullName",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.FullName))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "FullName",
-                "isVisible": false,
-                "label": "Full Name",
-                "originalIdentifier": "FullName",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 4,
-                "isDisabled": false,
-                "sourceData": "Christie Shah",
-                "fieldType": "Text Input"
             },
             "Name": {
                 "labelTextSize": "0.875rem",
