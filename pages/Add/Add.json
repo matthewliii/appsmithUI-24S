@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Add and Delete",
-    "slug": "add-and-delete",
+    "name": "Add",
+    "slug": "add",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Add and Delete",
+        "id": "Add",
         "deleted": false,
         "policies": [],
         "userPermissions": []

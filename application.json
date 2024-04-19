@@ -5,7 +5,7 @@
       "isDefault": true
     },
     {
-      "id": "Add and Delete",
+      "id": "Add",
       "isDefault": false
     },
     {
@@ -14,6 +14,10 @@
     },
     {
       "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Delete",
       "isDefault": false
     }
   ],

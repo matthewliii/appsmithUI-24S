@@ -1,0 +1,9 @@
+{
+"Title": {{Title_input.text}},
+"Artist": {{Artist_input.text}},
+"Genre": {{Genre_input.text}},
+"`Key`": {{Key_input.text}},
+"Tempo": {{Tempo_input.text}},
+"ReleaseStatus": {{Release_status.text}},
+}
+

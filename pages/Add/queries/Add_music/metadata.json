@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Add and Delete",
+    "pageId": "Add",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-19T00:16:59Z"
   },
-  "id": "Add and Delete_Add_music",
+  "id": "Add_Add_music",
   "deleted": false,
   "gitSyncId": "66204ac629e628460a326fd6_6621b7fb29e628460a32708f"
 }
